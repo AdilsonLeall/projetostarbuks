@@ -7,7 +7,56 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.line {
+header .line {
     background-color: rgb(17, 112, 80);
     height: 10px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-search form {
+    display: flex;
+    width: 300px;
+}
+.header-search input {
+    font-size: 16px ;
+    padding: 8px 30px 8px 12px;
+    border: 1px solid #b3b3b3;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+    line-height: 23px;
+}
+.header-search button {
+    border: 0;
+    background-color: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header-search button img {
+    width: 16px;
+    height: 16px;
+}
+.header-menu {
+    margin-left: 50px;
+    cursor: pointer;
+}
+.header-menu img {
+    width: 24px;
+    height: 24px;
 }
